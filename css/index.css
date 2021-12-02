@@ -1,0 +1,36 @@
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,
+del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,
+dl,dt,dd,ol,ul,li,fieldset,caption,form,label,legend,input,button {padding:0;margin:0;border:0;font-weight:normal}
+body{-webkit-text-size-adjust:none;background:#fff;line-height:1.43em;color:#111;font-size:15px;font-family:'Malgun Gothic','Helvetica','Apple-Gothic','애플고딕','Tahoma',dotum,'돋움',gulim,'굴림',sans-serif;word-break: break-all;}
+h1, h2, h3, h4, h5, h6 {font-size:15px;}
+ol,ul{list-style:none}
+html,body,#wrap {position:relative;min-height:100%;}
+table{border-collapse:collapse;border-spacing:0}
+caption,th,td{font-weight:normal;text-align:center}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+input, textarea, select, button {color:#111;font-size:15px;}
+select,textarea{width:100%;}
+img,fieldset,button{border:0;vertical-align:top}
+select,input,span#location img,td *,fieldset *{vertical-align:top}
+font{vertical-align: initial !important;}
+input[type="text"],input[type="tel"],input[type="number"],input[type="password"],input[type="email"],textarea{padding:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;border-radius:0}
+ul,li,ol{list-style-type :none}
+hr{margin:0;border:0;}
+a{color:#111;text-decoration:none}
+em{font-style:normal}
+legend{display:none}
+caption {text-indent:-5000px;overflow:hidden;font-size:0;height:0;width:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance:none;margin: 0;}
+button {cursor:pointer;-webkit-appearance:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;background:0 0; outline:none;}
+
+html{overflow:hidden;}
+.blind {overflow:hidden;position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;line-height:0;margin:-1px;text-indent:-9999px;}
+
+.list li{position:relative;display:flex;height:63px;border-bottom:1px solid #eee}
+.list li .box{position:relative;width:100%;left:0;padding:10px 40px;background-color:#fff;white-space:nowrap;z-index: 1;}
+.list li .date{position:absolute;right:18px;top:10px;font-size:12px}
+.list li .chk{position:absolute;left:18px;top:15px;width:10px;height:10px}
+.list li .delete{position:absolute;right:0;top:0;width:0;height:100%;line-height:62px;text-align:center;background:#c555ff url('../images/remove_icon.png') center center no-repeat;background-size:24px auto;color:#000;white-space: nowrap;}
+.list li .modify{position:absolute;left:0;top:0;width:0;height:100%;line-height:62px;text-align:center;background:#ffb2f6 url('../images/i_heart.png') center center no-repeat;background-size:32px auto;color:#000;white-space: nowrap;}
+.list li .box.on{background-color:#ff55da;}
